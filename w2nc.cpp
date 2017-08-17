@@ -232,7 +232,7 @@ bool Data::ldlnl()
 	  (*w_table)(i, j, k) = rww_table[i];
 	  (*div_table)(i, j, k) = rdv_table[i];
 	}
-	if (db_table[i] < -9000) {
+	if (db_table[i] > -9000) {
 	  (*dbz_table)(i, j, k) = db_table[i] * 0.1;
 	} else {
 	  (*dbz_table)(i, j, k) = fillValue;
