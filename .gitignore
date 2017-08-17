@@ -1,0 +1,11 @@
+*~
+*.o
+*.work
+*.log
+*#
+fw
+rnc
+w2nc
+*.nc
+*.w
+
