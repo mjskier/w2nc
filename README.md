@@ -17,7 +17,7 @@ Convert radar data from W format to NetCDF
    Take a W file, and generate a NetCDF file
 
 * w2grads.f
-   Fortran program w2nc.cpp is based on
+   Original Fortran program. Used as reference, and to compare the reading format.
 
 * rnc.cpp
    Program to test that the 3D array in w2nc.cpp works correctly
