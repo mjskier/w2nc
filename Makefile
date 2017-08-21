@@ -6,7 +6,7 @@ CXX_FLAGS = -std=c++11 -gdwarf-4
 F77 = f77
 CXX = g++
 
-all: fw w2nc rnc
+all: w2nc rnc
 
 fw: w2grads.f
 	$(F77) -g -o fw w2grads.f
