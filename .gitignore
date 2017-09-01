@@ -8,4 +8,9 @@ rnc
 w2nc
 *.nc
 *.w
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+
 

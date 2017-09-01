@@ -17,7 +17,6 @@
 
 class Array3D {
   
-  
 public:
   
   Array3D(int xDim, int yDim, int zDim);
@@ -242,6 +241,7 @@ bool Data::ldlnl()
       }
     }
   }
+  return true;
 }
 
 Data::Data(char *fname, bool debug) : file_handle(fname, std::ios::in | std::ios::binary), fDebug(debug)
@@ -386,6 +386,7 @@ bool Data::write(const char *fname)
   divVar.putVar(div_table->data());
   
   out.close();
+  return true;
 }
 
 void usage(const char *s) {
