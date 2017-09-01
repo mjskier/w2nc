@@ -2,13 +2,9 @@
 Convert radar data from W format to NetCDF, using this [Fortran code as reference](https://github.com/mmbell/HRD_Doppler_synthesis/blob/master/src/io/w2grads.f)
 
 
-## TODO
-
-* Convert to cmake
-
 ## Compile
 
-* Fix location of NetCDF in the Makefile
+* NETCDF_LIB_PATH=-L..... NETCDF_INCLUDE_PATH=-I..... cmake .
 * make
 
 ## Files
