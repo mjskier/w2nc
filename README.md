@@ -4,7 +4,7 @@ Convert radar data from W format to NetCDF, using this [Fortran code as referenc
 
 ## Compile
 
-* NETCDF_LIB_PATH=-L..... NETCDF_INCLUDE_PATH=-I..... cmake .
+* ```NETCDF_LIB_PATH=-L..... NETCDF_INCLUDE_PATH=-I..... cmake .```
 * make
 
 ## Files
